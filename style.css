@@ -1,0 +1,96 @@
+/* Global Css */
+:root {
+    --bright-orange: hsl(31, 77%, 52%);
+    --dark-cyan: hsl(184, 100%, 22%);
+    --very-dark-cyan: hsl(179, 100%, 13%);
+    --paragraphs: hsla(0, 0%, 100%, 0.75);
+    --accent: hsl(0, 0%, 95%);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+    width: 315px;
+}
+
+.card-1 {
+    background-color: var(--bright-orange);
+    border-radius: 10px 10px 0px 0px;
+    padding-bottom: 3em;
+    padding-top: 2.5em;
+}
+
+.card-2 {
+    background-color: var(--dark-cyan);
+    padding-bottom: 3em;
+    padding-top: 2.5em;
+}
+
+.card-3 {
+    background-color: var(--very-dark-cyan);
+    border-radius: 0px 0px 10px 10px;
+    padding-bottom: 3em;
+    padding-top: 2.5em;
+}
+
+.icon {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 3.4em;
+    line-height: 3em;
+}
+
+.card-title {
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-size: 26px;
+    color: var(--accent);
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 2em;
+    line-height: 3em;
+}
+
+.card-text {
+    font-family: 'Lexand Deca', sans-serif;
+    font-size: 15px;
+    color: var(--paragraphs);
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 3.5em;
+    margin-right: 2em;
+    margin-bottom: 3em;
+}
+
+#learn {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 3.5em;
+    margin-right: 2em;
+    border-radius: 20px;
+    padding: 10px 20px 10px 20px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 5em;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+
+/* Desktop Size to turn 1 column into 3 columns */
+@media only screen and (max-width: 1440px) {
+    .col {
+        display: block;
+    }
+
+}
