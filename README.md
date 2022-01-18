@@ -27,12 +27,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./) 
+![](/Screenshot-Desktop.PNG) 
 
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://quindipc.github.io/3-column-preview-card/)
 
 ## My process
 
@@ -43,18 +43,22 @@ Users should be able to:
 - Bootstrap
 
 ### What I learned
+I learned a little bit about media query. It's not perfect, but I think I'm slowly understanding and getting better. I designed this in the mobile design first and then added @media to change the views. 
 
-
-```html
-
-```
 ```css
+/* Change in Desktop view */
+@media screen and (min-width: 992px) {
+
+    .col {
+        float: left;
+        width: 33.33%;
+    }
 
 ```
 
 
 ### Continued development
-
+I will continue to learn more about the different screen sizes for media query and get better and testing my code and experimenting with different things.
 
 
 ### Useful resources
