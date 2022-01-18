@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/3-column-preview-card-MMhmti7mB](https://www.frontendmentor.io/solutions/3-column-preview-card-MMhmti7mB)
 - Live Site URL: [https://quindipc.github.io/3-column-preview-card/](https://quindipc.github.io/3-column-preview-card/)
 
 ## My process
