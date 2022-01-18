@@ -16,12 +16,22 @@
     display: flex;
     justify-content: center;
     margin-top: 2em;
-    width: 315px;
+    margin-left: 65px;
+}
+
+
+.col {
+    width: 75%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .card-1 {
     background-color: var(--bright-orange);
-    border-radius: 10px 10px 0px 0px;
     padding-bottom: 3em;
     padding-top: 2.5em;
 }
@@ -34,7 +44,6 @@
 
 .card-3 {
     background-color: var(--very-dark-cyan);
-    border-radius: 0px 0px 10px 10px;
     padding-bottom: 3em;
     padding-top: 2.5em;
 }
@@ -86,11 +95,10 @@
     color: hsl(228, 45%, 44%);
 }
 
+/* Change in Desktop view */
+@media screen and (min-width: 992px) {
 
-/* Desktop Size to turn 1 column into 3 columns */
-@media only screen and (max-width: 1440px) {
     .col {
-        display: block;
+        float: left;
+        width: 33.33%;
     }
-
-}
